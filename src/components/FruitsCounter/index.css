@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffd569;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 90%;
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  max-width: 1110px;
+}
+.heading {
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.highlight-count {
+  color: #ffd569;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.each-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.images-styling {
+  height: 200px;
+  width: 170px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media all and (min-width: 768px) {
+  .fruits-container {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .fruit-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    flex-wrap: wrap;
+  }
+  .each-container {
+    margin-top: 96px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .images-styling {
+    width: 300px;
+    height: 275px;
+  }
+  .button-container {
+    margin-top: 48px;
+  }
+  .button {
+    font-size: 16px;
+    margin-top: 48px;
+  }
+}
